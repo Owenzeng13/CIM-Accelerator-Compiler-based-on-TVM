@@ -11,8 +11,8 @@ def main():
     
     # define paths of `the result file` and `the bias_scale file`
     # please use the `absolute path`, NOT the `relative path` 
-    result_path = ""
-    bias_scale_path = ""
+    result_path = "/home/zengym/Desktop/CIM_Compiler_based_TVM/result"
+    bias_scale_path = "/home/zengym/Desktop/CIM_Compiler_based_TVM/bias_scale"
     
     # fill the index of the concat conv_node (just consider the fused-conv node, not includes the concat and upsample node)
     concat_list = [1,4]
